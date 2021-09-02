@@ -1,7 +1,7 @@
 ---- #---------------------------------------------------------#
 ---- #  Coyotte's Tools                                        #
 ---- #                                                         #
----- # version 0.1  August 2021 by Michel Baily                #
+---- # version 0.2  August 2021 by Michel Baily                #
 ---- #                                                         #
 ---- #  This code is published under the CC-BY-NC-ND licence   #
 ---- #---------------------------------------------------------#  
@@ -9,7 +9,7 @@
 ----------------------------------------------------------------
 ---- Allow to change a model timer value
 ---- Parameters : 
----- timerNum : TimerId (0 = Timer 1, 1 = Timer2, 2 = Timer 3 )
+---- timerNum : TimerId (0 = Timer 1, 1 = Timer 2, 2 = Timer 3 )
 ---- timerVal : New timer value in seconds
 
 local function ChangeTimerValue( aModel, timerId, timerVal )
